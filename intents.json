@@ -1,0 +1,250 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good evening",
+        "hello chatbot"
+      ],
+      "responses": [
+        "Hello! How can I help you with cybersecurity today?",
+        "Hi! What cybersecurity issue can I help you with?"
+      ]
+    },
+    {
+      "tag": "password",
+      "patterns": [
+        "how do I create a strong password",
+        "my password is weak",
+        "password security",
+        "how can I protect my password",
+        "strong password",
+        "how to make my password secure"
+      ],
+      "responses": [
+        "Use a long and unique password for each account. A password manager can help generate and store strong passwords securely.",
+        "Avoid reusing passwords. Use long unique passwords and enable multi-factor authentication whenever possible."
+      ]
+    },
+    {
+      "tag": "password_reset",
+      "patterns": [
+        "I forgot my password",
+        "how do I reset my password",
+        "password reset",
+        "cannot remember my password",
+        "I cannot login because I forgot my password"
+      ],
+      "responses": [
+        "Use the official password-reset option provided by the service. Avoid password-reset links from unexpected emails or messages.",
+        "Go directly to the official website or application and use its password recovery process."
+      ]
+    },
+    {
+      "tag": "phishing",
+      "patterns": [
+        "I received a suspicious email",
+        "what is phishing",
+        "phishing email",
+        "someone sent me a suspicious message",
+        "how do I identify phishing",
+        "fake email",
+        "is this email phishing"
+      ],
+      "responses": [
+        "Do not click unexpected links or attachments. Verify the sender independently and report suspicious messages through your organization's security process.",
+        "Phishing attempts often use urgent requests, suspicious links, unexpected attachments, or impersonation. Verify the request through a trusted channel before taking action."
+      ]
+    },
+    {
+      "tag": "suspicious_link",
+      "patterns": [
+        "I received a suspicious link",
+        "is this link safe",
+        "unknown link",
+        "someone sent me a strange link",
+        "should I click this link",
+        "I received a strange URL"
+      ],
+      "responses": [
+        "Do not open an unexpected link until you have verified the sender and destination. If it relates to an account, navigate to the official site directly.",
+        "Treat unexpected links cautiously. Verify the sender and destination before opening them."
+      ]
+    },
+    {
+      "tag": "malware",
+      "patterns": [
+        "what is malware",
+        "my computer may have malware",
+        "computer infected",
+        "virus detected",
+        "malware problem",
+        "I think my computer has a virus",
+        "my computer is infected"
+      ],
+      "responses": [
+        "If you suspect malware, disconnect the affected device from unnecessary networks, avoid entering sensitive information, run trusted security software, and contact your IT or security team if applicable.",
+        "Malware is malicious software designed to damage, disrupt, spy on, or gain unauthorized access to systems."
+      ]
+    },
+    {
+      "tag": "ransomware",
+      "patterns": [
+        "what is ransomware",
+        "my files are encrypted",
+        "ransom message appeared",
+        "computer infected with ransomware",
+        "files locked by ransomware"
+      ],
+      "responses": [
+        "If ransomware is suspected, isolate the affected device from networks and contact your IT or incident-response team immediately. Avoid making unplanned changes that could destroy useful evidence.",
+        "Ransomware is malware that can encrypt files or systems and demand payment. Organizations should follow their incident-response and recovery procedures."
+      ]
+    },
+    {
+      "tag": "account_compromised",
+     "patterns": [
+       "my account was hacked",
+       "someone logged into my account",
+       "unknown login detected",
+       "my account is compromised",
+       "someone stole my account",
+       "suspicious login",
+       "someone is accessing my account",
+       "someone has access to my account",
+       "unauthorized access to my account",
+       "I see a login that was not me",
+       "someone is using my account"
+      ],
+      "responses": [
+        "If you suspect account compromise, use a trusted device to change the password, sign out other sessions if available, enable MFA, and review recent account activity.",
+        "Secure the account through the service's official website, change compromised credentials, enable MFA, and report unauthorized activity when appropriate."
+      ]
+    },
+    {
+      "tag": "mfa",
+      "patterns": [
+        "what is MFA",
+        "what is two factor authentication",
+        "how do I secure my account",
+        "enable MFA",
+        "multi factor authentication",
+        "what is 2FA"
+      ],
+      "responses": [
+        "Multi-factor authentication adds another verification step beyond your password, making account takeover more difficult.",
+        "Enable MFA wherever possible. Authenticator apps or security keys are generally stronger options than relying only on passwords."
+      ]
+    },
+    {
+      "tag": "vpn_information",
+      "patterns": [
+        "what is a VPN",
+        "why should I use VPN",
+        "what does VPN do",
+        "how does a VPN work",
+        "VPN meaning"
+      ],
+      "responses": [
+        "A VPN creates an encrypted connection between your device and a VPN service or private network.",
+        "A VPN can help protect network traffic while connecting to a trusted private network or VPN service."
+      ]
+    },
+    {
+      "tag": "vpn_problem",
+      "patterns": [
+        "VPN not working",
+        "VPN problem",
+        "cannot connect to VPN",
+        "VPN connection failed",
+        "my VPN won't connect",
+        "VPN keeps disconnecting",
+        "I am unable to connect to my VPN",
+        "I cannot get the VPN to work",
+        "VPN does not work",
+        "having trouble with VPN",
+        "VPN connection problem"
+      ],
+      "responses": [
+        "First check your internet connection, verify your VPN login details, and restart the VPN client. Contact your administrator if the problem continues.",
+        "If your VPN is not connecting, confirm that your internet connection works normally, restart the VPN application, and verify the server and login settings."
+      ]
+    },
+    {
+      "tag": "antivirus",
+      "patterns": [
+        "what is antivirus",
+        "do I need antivirus",
+        "antivirus not working",
+        "how to scan for viruses",
+        "security software",
+        "virus scanner"
+      ],
+      "responses": [
+        "Antivirus and endpoint security software can detect and block many known threats. Keep the software and its security definitions updated.",
+        "Use trusted security software and keep your operating system, browser, and applications updated."
+      ]
+    },
+    {
+      "tag": "wifi_security",
+      "patterns": [
+        "how to secure wifi",
+        "is public wifi safe",
+        "wifi security",
+        "public wifi security",
+        "how do I protect my wifi",
+        "is free wifi safe"
+      ],
+      "responses": [
+        "Secure your home Wi-Fi with modern encryption such as WPA2 or WPA3, a strong unique password, and updated router firmware.",
+        "Be cautious on public Wi-Fi. Avoid exposing sensitive information unnecessarily and prefer encrypted HTTPS connections and trusted networks."
+      ]
+    },
+    {
+      "tag": "software_updates",
+      "patterns": [
+        "why should I update software",
+        "software update security",
+        "are security updates important",
+        "why install security patches",
+        "system updates"
+      ],
+      "responses": [
+        "Security updates often fix known vulnerabilities. Keeping your operating system and applications updated reduces exposure to known attacks.",
+        "Install security updates from trusted official sources and keep important software supported and up to date."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thanks for helping",
+        "that helped",
+        "thank you chatbot"
+      ],
+      "responses": [
+        "You're welcome! Stay safe online.",
+        "Glad I could help. Let me know if you have another cybersecurity question."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "exit",
+        "quit",
+        "see you"
+      ],
+      "responses": [
+        "Goodbye! Stay safe online.",
+        "Thanks for using the Cybersecurity Helpdesk Chatbot!"
+      ]
+    }
+  ]
+}
