@@ -69,7 +69,7 @@ Cybersecurity-Helpdesk-Chatbot/
 Clone the repository:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/MdArshath17/Cybersecurity-Helpdesk-Chatbot.git
 ```
 
 Move into the project directory:
